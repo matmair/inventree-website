@@ -15,26 +15,27 @@
 <!-- Fontawesome integration -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
-<title>InvenTree - Matmair</title>
+<title>InvenTree - Introducing the Plugin List</title>
 <meta itemprop="description" name="description"
     content="InvenTree is an open-source inventory management system which provides intuitive parts management and stock control. It is at the center of an ecosystem of a..." />
 
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Matmair | InvenTree</title>
+<title>Introducing the Plugin List | InvenTree</title>
 <meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="Matmair" />
+<meta property="og:title" content="Introducing the Plugin List" />
+<meta name="author" content="matmair" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="I try to build an ecosystem of reusable plugins and integrations for InvenTree. Code once and KISS!" />
-<meta property="og:description" content="I try to build an ecosystem of reusable plugins and integrations for InvenTree. Code once and KISS!" />
-<link rel="canonical" href="/matmair" />
-<meta property="og:url" content="/matmair" />
+<meta name="description" content="Getting ready for 0.10.0, Website Updates and the Plugin List." />
+<meta property="og:description" content="Getting ready for 0.10.0, Website Updates and the Plugin List." />
+<link rel="canonical" href="/news/2023/01/30/introducing-the-plugin-list" />
+<meta property="og:url" content="/news/2023/01/30/introducing-the-plugin-list" />
 <meta property="og:site_name" content="InvenTree" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-04-18T17:43:29+00:00" />
+<meta property="article:published_time" content="2023-01-30T00:00:00+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Matmair" />
+<meta property="twitter:title" content="Introducing the Plugin List" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-04-18T17:43:29+00:00","datePublished":"2023-04-18T17:43:29+00:00","description":"I try to build an ecosystem of reusable plugins and integrations for InvenTree. Code once and KISS!","headline":"Matmair","mainEntityOfPage":{"@type":"WebPage","@id":"/matmair"},"url":"/matmair"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"matmair"},"dateModified":"2023-01-30T00:00:00+00:00","datePublished":"2023-01-30T00:00:00+00:00","description":"Getting ready for 0.10.0, Website Updates and the Plugin List.","headline":"Introducing the Plugin List","mainEntityOfPage":{"@type":"WebPage","@id":"/news/2023/01/30/introducing-the-plugin-list"},"url":"/news/2023/01/30/introducing-the-plugin-list"}</script>
 <!-- End Jekyll SEO tag -->
 
     <script async defer src="https://umami.invenhost.com/umami.js" data-website-id="c713a5e9-25cf-4bb6-9e84-ceb041a53986" data-do-not-track="true"></script>
@@ -59,80 +60,50 @@
 
         
     </div>
-</header> <article>
+</header> <header>
     
-    <h2>
-  <div class="flex items-end">
+    <a href="/news" class="flex items-center m-5 text-xl hover:underline">
+        <img class="w-6 h-6" alt="go back" src="/assets/back.svg">
+        <span>Back</span>
+    </a>
     
-    <div class="mb-1">
-      <img src="https://github.com/matmair.png?size=40" alt="mdo" class="rounded-full" width="40" height="40" style="margin:0px">
-    </div>
-    
-    Matthias Mair
-  </div>
-</h2>
+</header>
 
-<div>
+<article>
+    <h1>Introducing the Plugin List</h1>
+    <p>
+      30 Jan 2023
+      
 
-<a href="https://github.com/matmair"><span class="badge bg-secondary">GitHub</span></a>
+<a href="/matmair">Matthias Mair</a>
+    </p>
+    <p>Getting ready for 0.10.0, Website Updates and the Plugin List.</p>
 
+<h3 id="preparations-for-0100">Preparations for 0.10.0</h3>
 
+<p>Since the last release, we’ve been working on the next version of InvenTree, which will be 0.10.0. There are already 85 PRs merged into the <code class="language-plaintext highlighter-rouge">master</code> branch, and we’re expecting to release 0.10.0 in the next few weeks.</p>
 
-<a href="https://mjmair.com"><span class="badge bg-secondary">Website</span></a>
-
-
-
-
-<a href="/about/team"><span class="badge bg-lime-600"><span class="fa-solid fa-shield"></span>Team Member</span></a>
-
-</div>
-
-<blockquote class="blockquote">
-  <p>I try to build an ecosystem of reusable plugins and integrations for InvenTree. Code once and KISS!</p>
-
-</blockquote>
-
-
-
-<h3>Posts</h3>
-<ul class="list-unstyled">
-  
-    <li>30 Jan 2023 <a href="/blog/2023/01/30/plugin-list" class="lead">Starting the Plugin List</a>
-</li>
-  
-    <li>25 Oct 2021 <a href="/blog/2021/10/25/starting" class="lead">Starting with templates</a>
-</li>
-  
+<p>There will be a full blog post once we release but here are a few perks to look for:</p>
+<ul>
+  <li>The option to use <a href="https://github.com/inventree/InvenTree/pull/4072">Slovenian</a>. Around 7% are already translated - we need your help to get that number up. Head over to the <a href="https://crowdin.com/project/inventree">translation project</a> if you want to help with any language.</li>
+  <li>Attach the current order schedule to your calendar (<a href="https://github.com/inventree/InvenTree/pull/3858">3858</a>)</li>
+  <li>Improvements for report rendering (<a href="https://github.com/inventree/InvenTree/pull/4081">4081</a>) and a lot of improvements to the docs</li>
+  <li>Get orders by their reference via the API (<a href="https://github.com/inventree/InvenTree/pull/4083">4083</a>)</li>
+  <li>Improvements for SSO - including the UI (<a href="https://github.com/inventree/InvenTree/pull/4169">4169</a>, <a href="https://github.com/inventree/InvenTree/pull/4263">4263</a>), better separation between local and SSO user management (<a href="https://github.com/inventree/InvenTree/pull/4171">4171</a>) and restricting signups to specific domains (<a href="https://github.com/inventree/InvenTree/pull/4172">4172</a>)</li>
+  <li>Include alternative parts in your BOM exports (<a href="https://github.com/inventree/InvenTree/pull/4203">4203</a>)</li>
+  <li>A simple priority field for order (<a href="https://github.com/inventree/InvenTree/pull/4225">4225</a>)</li>
 </ul>
 
+<h3 id="website-updates">Website Updates</h3>
 
+<p>The website got some UI fixes for mobile users and gained more icons. We also added a <a href="https://inventree.org/about/team">team section</a> and moved away from cookie-based analytics.</p>
 
+<h3 id="plugin-list">Plugin List</h3>
 
-<h3>Plugins</h3>
-<ul class="list-unstyled">
-  
-    <li>
-      <a href="/matmair/inventree-apprise">
-      Inventree Apprise
-      </a>
-    </li>
-  
-    <li>
-      <a href="/matmair/inventree-rapidoc">
-      Inventree Rapidoc
-      </a>
-    </li>
-  
-    <li>
-      <a href="/matmair/inventree-zapier">
-      Inventree Zapier
-      </a>
-    </li>
-  
-</ul>
+<p>A new feature landed: the <a href="https://inventree.org/plugins">plugin list</a>. Check out the <a href="/blog/2023/01/30/plugin-list">blog post</a> for more details.</p>
+
 
 </article>
-
     </div>
 
     <div class="flex-grow"></div>
