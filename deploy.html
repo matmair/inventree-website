@@ -21,7 +21,7 @@
 
 <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Deploying InvenTree | InvenTree</title>
-<meta name="generator" content="Jekyll v4.3.2" />
+<meta name="generator" content="Jekyll v4.3.3" />
 <meta property="og:title" content="Deploying InvenTree" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="InvenTree is an open-source inventory management system which provides intuitive parts management and stock control. It is at the center of an ecosystem of addins for EDA tools, API wrapper, deeply integrated plugins and 3rd party tools." />
@@ -36,7 +36,6 @@
 {"@context":"https://schema.org","@type":"WebPage","description":"InvenTree is an open-source inventory management system which provides intuitive parts management and stock control. It is at the center of an ecosystem of addins for EDA tools, API wrapper, deeply integrated plugins and 3rd party tools.","headline":"Deploying InvenTree","url":"/deploy.html"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <script async defer src="https://umami.invenhost.com/script.js" data-website-id="c713a5e9-25cf-4bb6-9e84-ceb041a53986" data-do-not-track="true"></script>
 </head>
 
 <body class="flex flex-col antialiased cm-gray-1 min-h-screen">
@@ -64,14 +63,18 @@
     
     <p>There are multiple methods to deploy InvenTree. The most popular methods (supported by the development team) are:</p>
 
-<h3 id="installer">Installer</h3>
-<p>We provide a <a href="https://docs.inventree.org/en/latest/start/installer/">single-line installer</a> that enables a quick installation and updates using the packager manager.</p>
-
 <h3 id="docker">Docker</h3>
 
 <p>InvenTree supports a simple containerized installation via docker. An official <a href="https://hub.docker.com/r/inventree/inventree/">docker image</a> is provided with regular updates.</p>
 
 <p>Refer to the <a href="https://docs.inventree.org/en/latest/start/docker/">docker installation guide</a> for more information</p>
+
+<h3 id="installer">Installer</h3>
+<p>We provide a <a href="https://docs.inventree.org/en/latest/start/installer/">single-line installer</a> that enables a quick installation and updates using the packager manager.</p>
+
+<h3 id="appjail">AppJail</h3>
+
+<p>InvenTree can be installed on FreeBSD using AppJail. An <a href="https://github.com/AppJail-makejails/inventree">AppJail Makejail</a> is provided with regular updates.</p>
 
 <h3 id="manual-bare-metal-install">Manual Bare Metal Install</h3>
 
@@ -83,7 +86,7 @@
 
 <h3 id="other-options">Other Options</h3>
 
-<p>The core InvenTree server is built using the widely used python-based framework <a href="https://djangoproject.com/">Django</a>. Therefore there are  deployment methods for nearly all plattforms and architectures.</p>
+<p>The core InvenTree server is built using the widely used python-based framework <a href="https://djangoproject.com/">Django</a>. Therefore there are  deployment methods for nearly all platforms and architectures.</p>
 
 </article>
 
@@ -133,11 +136,9 @@
           
           <li><a href="/extend/app.html" class="footer-link">App</a></li>
           
-          <li><a href="/extend/integrate/" class="footer-link">Integrate</a></li>
-          
           <li><a href="/extend/plugin/" class="footer-link">Plugins</a></li>
           
-          <li><a href="https://github.com/sparkmicro/Ki-nTree" class="footer-link">KiCad</a></li>
+          <li><a href="/extend/integrate/" class="footer-link">Integrations</a></li>
           
         </ul></nav>
       </div>
@@ -177,10 +178,14 @@
         <a href="https://twitter.com/inventreedb" alt="Twitter" class="ml-3 cm-gray-3">
           <img class="h-5 w-5" alt="Twitter logo" src="/assets/twitter.svg">
         </a>
+        <a href="https://chaos.social/@InvenTree" rel="me" alt="Mastodon" class="ml-3 cm-gray-3">
+          <img class="h-5 w-5" alt="Mastodon logo" src="/assets/mastodon.svg">
+        </a>
       </span>
     </div>
   </div>
 </footer>
+
     </div>
 </body>
 

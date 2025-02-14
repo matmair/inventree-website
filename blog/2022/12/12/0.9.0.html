@@ -21,7 +21,7 @@
 
 <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>0.9.0 Stable Release | InvenTree</title>
-<meta name="generator" content="Jekyll v4.3.2" />
+<meta name="generator" content="Jekyll v4.3.3" />
 <meta property="og:title" content="0.9.0 Stable Release" />
 <meta name="author" content="SchrodingersGat" />
 <meta property="og:locale" content="en_US" />
@@ -38,7 +38,6 @@
 {"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"SchrodingersGat"},"dateModified":"2022-12-12T00:00:00+00:00","datePublished":"2022-12-12T00:00:00+00:00","description":"The InvenTree team is very excited to announce the InvenTree 0.9.0 Stable Release!","headline":"0.9.0 Stable Release","mainEntityOfPage":{"@type":"WebPage","@id":"/blog/2022/12/12/0.9.0"},"url":"/blog/2022/12/12/0.9.0"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <script async defer src="https://umami.invenhost.com/script.js" data-website-id="c713a5e9-25cf-4bb6-9e84-ceb041a53986" data-do-not-track="true"></script>
 </head>
 
 <body class="flex flex-col antialiased cm-gray-1 min-h-screen">
@@ -87,7 +86,7 @@
 
 <h3 id="installer">Installer</h3>
 
-<p>We now have a packaged command-line installer for simplified setup (on supported platforms), using the <a href="https://packager.io/">packager.io</a> service. The installer is targetted for users who are installing InvenTree on a bare metal system (separate installers are available for container environments).</p>
+<p>We now have a packaged command-line installer for simplified setup (on supported platforms), using the <a href="https://packager.io/">packager.io</a> service. The installer is targeted for users who are installing InvenTree on a bare metal system (separate installers are available for container environments).</p>
 
 <p>You can find more information about the installer at <a href="https://docs.inventree.org/en/latest/start/installer/">docs.inventree.org</a>.</p>
 
@@ -97,7 +96,7 @@
 
 <h3 id="pricing-overhaul">Pricing Overhaul</h3>
 
-<p>This release provides a major overhaul for how pricing data is managed. The new pricing system calculates various pricing information (such as BOM cost or purchase price range) and caches this data in the database. This means that the efficiency of accessing pricing data in real time is greatly improved. For complex bills of material, viewing pricing data was (before this update) extremely prohibitive, due to the recursive calculations which were being performed “on the fly”. The new achitecture makes use of the background worker to recalculate pricing information whenever the underlying data changes, ensuring that “up to date” pricing is readily available.</p>
+<p>This release provides a major overhaul for how pricing data is managed. The new pricing system calculates various pricing information (such as BOM cost or purchase price range) and caches this data in the database. This means that the efficiency of accessing pricing data in real time is greatly improved. For complex bills of material, viewing pricing data was (before this update) extremely prohibitive, due to the recursive calculations which were being performed “on the fly”. The new architecture makes use of the background worker to recalculate pricing information whenever the underlying data changes, ensuring that “up to date” pricing is readily available.</p>
 
 <p><img src="/assets/blog/bom-pricing.png" alt="BOM Pricing"></p>
 
@@ -215,11 +214,9 @@
           
           <li><a href="/extend/app.html" class="footer-link">App</a></li>
           
-          <li><a href="/extend/integrate/" class="footer-link">Integrate</a></li>
-          
           <li><a href="/extend/plugin/" class="footer-link">Plugins</a></li>
           
-          <li><a href="https://github.com/sparkmicro/Ki-nTree" class="footer-link">KiCad</a></li>
+          <li><a href="/extend/integrate/" class="footer-link">Integrations</a></li>
           
         </ul></nav>
       </div>
@@ -259,10 +256,14 @@
         <a href="https://twitter.com/inventreedb" alt="Twitter" class="ml-3 cm-gray-3">
           <img class="h-5 w-5" alt="Twitter logo" src="/assets/twitter.svg">
         </a>
+        <a href="https://chaos.social/@InvenTree" rel="me" alt="Mastodon" class="ml-3 cm-gray-3">
+          <img class="h-5 w-5" alt="Mastodon logo" src="/assets/mastodon.svg">
+        </a>
       </span>
     </div>
   </div>
 </footer>
+
     </div>
 </body>
 
